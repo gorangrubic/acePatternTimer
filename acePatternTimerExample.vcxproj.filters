@@ -19,10 +19,25 @@
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
+    <None Include="Example2.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.acePatternTimer.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\acePatternTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aceMultiPatternPinControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\acePatternTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aceMultiPatternPinControl.cpp">
+      <Filter>Misc Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

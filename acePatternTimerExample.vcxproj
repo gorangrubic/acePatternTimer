@@ -112,11 +112,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Example2.ino">
+      <FileType>CppCode</FileType>
+    </None>
     <None Include="src\arduino folders read me.txt">
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\aceMultiPatternPinControl.h" />
+    <ClInclude Include="src\acePatternTimer.h" />
     <ClInclude Include="__vm\.acePatternTimer.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aceMultiPatternPinControl.cpp" />
+    <ClCompile Include="src\acePatternTimer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
